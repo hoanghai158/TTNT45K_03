@@ -10,3 +10,15 @@ G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug
 G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.tablemanagement.resources
 G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.AccountProfile.resources
 G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.Admin.resources
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\bin\Debug\hethongbanvexemfim.exe.config
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.exe
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.pdb
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\bin\Debug\hethongbanvexemfim.exe
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\bin\Debug\hethongbanvexemfim.pdb
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.csprojResolveAssemblyReference.cache
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.AccountProfile.resources
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.Admin.resources
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.Login.resources
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.Properties.Resources.resources
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.tablemanagement.resources
+C:\Users\PV\OneDrive\Tài liệu\TTNT45K_03\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.csproj.GenerateResource.Cache
