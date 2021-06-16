@@ -1,0 +1,12 @@
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\bin\Debug\hethongbanvexemfim.exe.config
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.csprojResolveAssemblyReference.cache
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.Login.resources
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.Properties.Resources.resources
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.csproj.GenerateResource.Cache
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\bin\Debug\hethongbanvexemfim.exe
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\bin\Debug\hethongbanvexemfim.pdb
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.exe
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.pdb
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.tablemanagement.resources
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.AccountProfile.resources
+G:\hoclaptrinh\demo_hethongbanve\hethongbanvexemfim\hethongbanvexemfim\obj\Debug\hethongbanvexemfim.Admin.resources

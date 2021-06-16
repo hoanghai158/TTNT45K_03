@@ -94,14 +94,7 @@
             this.btnEditAccount = new System.Windows.Forms.Button();
             this.btnDeleteAccount = new System.Windows.Forms.Button();
             this.btnShowAccount = new System.Windows.Forms.Button();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.btnAddCashier = new System.Windows.Forms.Button();
-            this.btnEditCashier = new System.Windows.Forms.Button();
-            this.btnDeleteCashier = new System.Windows.Forms.Button();
-            this.btnShowCashier = new System.Windows.Forms.Button();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.dtgvCashier = new System.Windows.Forms.DataGridView();
+            this.tpCasiher = new System.Windows.Forms.TabPage();
             this.panel17 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.txbNameNv = new System.Windows.Forms.TextBox();
@@ -109,14 +102,14 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.txbMaNv = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.btnAddCustomer = new System.Windows.Forms.Button();
-            this.btnEditCustomer = new System.Windows.Forms.Button();
-            this.btnDeleteCustomer = new System.Windows.Forms.Button();
-            this.btnShowCustomer = new System.Windows.Forms.Button();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.dtgvCustomer = new System.Windows.Forms.DataGridView();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.dtgvCashier = new System.Windows.Forms.DataGridView();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.btnAddCashier = new System.Windows.Forms.Button();
+            this.btnEditCashier = new System.Windows.Forms.Button();
+            this.btnDeleteCashier = new System.Windows.Forms.Button();
+            this.btnShowCashier = new System.Windows.Forms.Button();
+            this.tpCustomer = new System.Windows.Forms.TabPage();
             this.panel28 = new System.Windows.Forms.Panel();
             this.panel29 = new System.Windows.Forms.Panel();
             this.txbNameCustomer = new System.Windows.Forms.TextBox();
@@ -124,6 +117,13 @@
             this.panel30 = new System.Windows.Forms.Panel();
             this.txbMaKh = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.dtgvCustomer = new System.Windows.Forms.DataGridView();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.btnAddCustomer = new System.Windows.Forms.Button();
+            this.btnEditCustomer = new System.Windows.Forms.Button();
+            this.btnDeleteCustomer = new System.Windows.Forms.Button();
+            this.btnShowCustomer = new System.Windows.Forms.Button();
             this.tcAdmin.SuspendLayout();
             this.tpBill.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -155,20 +155,20 @@
             this.panel22.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvAccount)).BeginInit();
             this.panel21.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.panel13.SuspendLayout();
-            this.panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvCashier)).BeginInit();
+            this.tpCasiher.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel19.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel27.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvCustomer)).BeginInit();
+            this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCashier)).BeginInit();
+            this.panel13.SuspendLayout();
+            this.tpCustomer.SuspendLayout();
             this.panel28.SuspendLayout();
             this.panel29.SuspendLayout();
             this.panel30.SuspendLayout();
+            this.panel27.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCustomer)).BeginInit();
+            this.panel20.SuspendLayout();
             this.SuspendLayout();
             // 
             // tcAdmin
@@ -177,8 +177,8 @@
             this.tcAdmin.Controls.Add(this.tpFilm);
             this.tcAdmin.Controls.Add(this.tpCategory);
             this.tcAdmin.Controls.Add(this.tpAccount);
-            this.tcAdmin.Controls.Add(this.tabPage1);
-            this.tcAdmin.Controls.Add(this.tabPage2);
+            this.tcAdmin.Controls.Add(this.tpCasiher);
+            this.tcAdmin.Controls.Add(this.tpCustomer);
             this.tcAdmin.Location = new System.Drawing.Point(12, 12);
             this.tcAdmin.Name = "tcAdmin";
             this.tcAdmin.SelectedIndex = 0;
@@ -842,18 +842,107 @@
             this.btnShowAccount.UseVisualStyleBackColor = true;
             this.btnShowAccount.Click += new System.EventHandler(this.btnShowAccount_Click);
             // 
-            // tabPage1
+            // tpCasiher
             // 
-            this.tabPage1.Controls.Add(this.panel17);
-            this.tabPage1.Controls.Add(this.panel15);
-            this.tabPage1.Controls.Add(this.panel13);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(776, 531);
-            this.tabPage1.TabIndex = 5;
-            this.tabPage1.Text = "Nhân viên";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tpCasiher.Controls.Add(this.panel17);
+            this.tpCasiher.Controls.Add(this.panel15);
+            this.tpCasiher.Controls.Add(this.panel13);
+            this.tpCasiher.Location = new System.Drawing.Point(4, 25);
+            this.tpCasiher.Name = "tpCasiher";
+            this.tpCasiher.Padding = new System.Windows.Forms.Padding(3);
+            this.tpCasiher.Size = new System.Drawing.Size(776, 531);
+            this.tpCasiher.TabIndex = 5;
+            this.tpCasiher.Text = "Nhân viên";
+            this.tpCasiher.UseVisualStyleBackColor = true;
+            this.tpCasiher.Click += new System.EventHandler(this.tpCasiher_Click);
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel17.Controls.Add(this.panel18);
+            this.panel17.Controls.Add(this.panel19);
+            this.panel17.Location = new System.Drawing.Point(416, 82);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(354, 440);
+            this.panel17.TabIndex = 5;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel18.Controls.Add(this.txbNameNv);
+            this.panel18.Controls.Add(this.label5);
+            this.panel18.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.panel18.Location = new System.Drawing.Point(3, 91);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(348, 62);
+            this.panel18.TabIndex = 3;
+            // 
+            // txbNameNv
+            // 
+            this.txbNameNv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.txbNameNv.Location = new System.Drawing.Point(115, 20);
+            this.txbNameNv.Name = "txbNameNv";
+            this.txbNameNv.Size = new System.Drawing.Size(216, 22);
+            this.txbNameNv.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(16, 18);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 24);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Họ tên:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel19.Controls.Add(this.txbMaNv);
+            this.panel19.Controls.Add(this.label7);
+            this.panel19.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.panel19.Location = new System.Drawing.Point(3, 15);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(348, 60);
+            this.panel19.TabIndex = 1;
+            // 
+            // txbMaNv
+            // 
+            this.txbMaNv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.txbMaNv.Location = new System.Drawing.Point(115, 20);
+            this.txbMaNv.Name = "txbMaNv";
+            this.txbMaNv.Size = new System.Drawing.Size(216, 22);
+            this.txbMaNv.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(16, 20);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(77, 24);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Mã NV:";
+            // 
+            // panel15
+            // 
+            this.panel15.Controls.Add(this.dtgvCashier);
+            this.panel15.Location = new System.Drawing.Point(3, 82);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(407, 440);
+            this.panel15.TabIndex = 4;
+            // 
+            // dtgvCashier
+            // 
+            this.dtgvCashier.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dtgvCashier.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvCashier.Location = new System.Drawing.Point(3, 3);
+            this.dtgvCashier.Name = "dtgvCashier";
+            this.dtgvCashier.RowTemplate.Height = 24;
+            this.dtgvCashier.Size = new System.Drawing.Size(401, 434);
+            this.dtgvCashier.TabIndex = 0;
+            this.dtgvCashier.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvCashier_CellContentClick);
             // 
             // panel13
             // 
@@ -862,10 +951,10 @@
             this.panel13.Controls.Add(this.btnEditCashier);
             this.panel13.Controls.Add(this.btnDeleteCashier);
             this.panel13.Controls.Add(this.btnShowCashier);
-            this.panel13.Location = new System.Drawing.Point(6, 6);
+            this.panel13.Location = new System.Drawing.Point(3, 6);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(407, 73);
-            this.panel13.TabIndex = 3;
+            this.panel13.TabIndex = 2;
             // 
             // btnAddCashier
             // 
@@ -906,185 +995,31 @@
             this.btnShowCashier.TabIndex = 0;
             this.btnShowCashier.Text = "Xem";
             this.btnShowCashier.UseVisualStyleBackColor = false;
+            this.btnShowCashier.Click += new System.EventHandler(this.btnShowCashier_Click);
             // 
-            // panel15
+            // tpCustomer
             // 
-            this.panel15.Controls.Add(this.dtgvCashier);
-            this.panel15.Location = new System.Drawing.Point(6, 82);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(407, 440);
-            this.panel15.TabIndex = 5;
-            // 
-            // dtgvCashier
-            // 
-            this.dtgvCashier.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.dtgvCashier.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvCashier.Location = new System.Drawing.Point(3, 3);
-            this.dtgvCashier.Name = "dtgvCashier";
-            this.dtgvCashier.RowTemplate.Height = 24;
-            this.dtgvCashier.Size = new System.Drawing.Size(401, 434);
-            this.dtgvCashier.TabIndex = 0;
-            // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panel17.Controls.Add(this.panel18);
-            this.panel17.Controls.Add(this.panel19);
-            this.panel17.Location = new System.Drawing.Point(416, 82);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(354, 440);
-            this.panel17.TabIndex = 6;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel18.Controls.Add(this.txbNameNv);
-            this.panel18.Controls.Add(this.label5);
-            this.panel18.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.panel18.Location = new System.Drawing.Point(3, 91);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(348, 62);
-            this.panel18.TabIndex = 3;
-            // 
-            // txbNameNv
-            // 
-            this.txbNameNv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.txbNameNv.Location = new System.Drawing.Point(115, 20);
-            this.txbNameNv.Name = "txbNameNv";
-            this.txbNameNv.Size = new System.Drawing.Size(216, 22);
-            this.txbNameNv.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(16, 18);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 24);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Họ tên:";
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel19.Controls.Add(this.txbMaNv);
-            this.panel19.Controls.Add(this.label7);
-            this.panel19.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.panel19.Location = new System.Drawing.Point(3, 15);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(348, 60);
-            this.panel19.TabIndex = 1;
-            // 
-            // txbMaNv
-            // 
-            this.txbMaNv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.txbMaNv.Location = new System.Drawing.Point(115, 20);
-            this.txbMaNv.Name = "txbMaNv";
-            this.txbMaNv.Size = new System.Drawing.Size(216, 22);
-            this.txbMaNv.TabIndex = 1;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(16, 20);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(77, 24);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Mã NV:";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.panel28);
-            this.tabPage2.Controls.Add(this.panel27);
-            this.tabPage2.Controls.Add(this.panel20);
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(776, 531);
-            this.tabPage2.TabIndex = 6;
-            this.tabPage2.Text = "Khách hàng";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel20.Controls.Add(this.btnAddCustomer);
-            this.panel20.Controls.Add(this.btnEditCustomer);
-            this.panel20.Controls.Add(this.btnDeleteCustomer);
-            this.panel20.Controls.Add(this.btnShowCustomer);
-            this.panel20.Location = new System.Drawing.Point(6, 6);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(407, 73);
-            this.panel20.TabIndex = 4;
-            // 
-            // btnAddCustomer
-            // 
-            this.btnAddCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnAddCustomer.Location = new System.Drawing.Point(93, 3);
-            this.btnAddCustomer.Name = "btnAddCustomer";
-            this.btnAddCustomer.Size = new System.Drawing.Size(75, 67);
-            this.btnAddCustomer.TabIndex = 3;
-            this.btnAddCustomer.Text = "Thêm";
-            this.btnAddCustomer.UseVisualStyleBackColor = false;
-            // 
-            // btnEditCustomer
-            // 
-            this.btnEditCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnEditCustomer.Location = new System.Drawing.Point(281, 3);
-            this.btnEditCustomer.Name = "btnEditCustomer";
-            this.btnEditCustomer.Size = new System.Drawing.Size(75, 67);
-            this.btnEditCustomer.TabIndex = 2;
-            this.btnEditCustomer.Text = "Sửa";
-            this.btnEditCustomer.UseVisualStyleBackColor = false;
-            // 
-            // btnDeleteCustomer
-            // 
-            this.btnDeleteCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnDeleteCustomer.Location = new System.Drawing.Point(185, 3);
-            this.btnDeleteCustomer.Name = "btnDeleteCustomer";
-            this.btnDeleteCustomer.Size = new System.Drawing.Size(75, 67);
-            this.btnDeleteCustomer.TabIndex = 1;
-            this.btnDeleteCustomer.Text = "Xóa";
-            this.btnDeleteCustomer.UseVisualStyleBackColor = false;
-            // 
-            // btnShowCustomer
-            // 
-            this.btnShowCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.btnShowCustomer.Location = new System.Drawing.Point(0, 3);
-            this.btnShowCustomer.Name = "btnShowCustomer";
-            this.btnShowCustomer.Size = new System.Drawing.Size(75, 67);
-            this.btnShowCustomer.TabIndex = 0;
-            this.btnShowCustomer.Text = "Xem";
-            this.btnShowCustomer.UseVisualStyleBackColor = false;
-            // 
-            // panel27
-            // 
-            this.panel27.Controls.Add(this.dtgvCustomer);
-            this.panel27.Location = new System.Drawing.Point(6, 85);
-            this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(407, 440);
-            this.panel27.TabIndex = 6;
-            // 
-            // dtgvCustomer
-            // 
-            this.dtgvCustomer.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.dtgvCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvCustomer.Location = new System.Drawing.Point(3, 3);
-            this.dtgvCustomer.Name = "dtgvCustomer";
-            this.dtgvCustomer.RowTemplate.Height = 24;
-            this.dtgvCustomer.Size = new System.Drawing.Size(401, 434);
-            this.dtgvCustomer.TabIndex = 0;
+            this.tpCustomer.Controls.Add(this.panel28);
+            this.tpCustomer.Controls.Add(this.panel27);
+            this.tpCustomer.Controls.Add(this.panel20);
+            this.tpCustomer.Location = new System.Drawing.Point(4, 25);
+            this.tpCustomer.Name = "tpCustomer";
+            this.tpCustomer.Padding = new System.Windows.Forms.Padding(3);
+            this.tpCustomer.Size = new System.Drawing.Size(776, 531);
+            this.tpCustomer.TabIndex = 6;
+            this.tpCustomer.Text = "Khách hàng";
+            this.tpCustomer.UseVisualStyleBackColor = true;
+            this.tpCustomer.Click += new System.EventHandler(this.tpCustomer_Click);
             // 
             // panel28
             // 
             this.panel28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.panel28.Controls.Add(this.panel29);
             this.panel28.Controls.Add(this.panel30);
-            this.panel28.Location = new System.Drawing.Point(416, 85);
+            this.panel28.Location = new System.Drawing.Point(419, 82);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(354, 440);
-            this.panel28.TabIndex = 7;
+            this.panel28.TabIndex = 6;
             // 
             // panel29
             // 
@@ -1144,11 +1079,82 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "Mã KH:";
             // 
+            // panel27
+            // 
+            this.panel27.Controls.Add(this.dtgvCustomer);
+            this.panel27.Location = new System.Drawing.Point(6, 82);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(407, 440);
+            this.panel27.TabIndex = 5;
+            // 
+            // dtgvCustomer
+            // 
+            this.dtgvCustomer.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dtgvCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvCustomer.Location = new System.Drawing.Point(3, 3);
+            this.dtgvCustomer.Name = "dtgvCustomer";
+            this.dtgvCustomer.RowTemplate.Height = 24;
+            this.dtgvCustomer.Size = new System.Drawing.Size(401, 434);
+            this.dtgvCustomer.TabIndex = 0;
+            // 
+            // panel20
+            // 
+            this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.panel20.Controls.Add(this.btnAddCustomer);
+            this.panel20.Controls.Add(this.btnEditCustomer);
+            this.panel20.Controls.Add(this.btnDeleteCustomer);
+            this.panel20.Controls.Add(this.btnShowCustomer);
+            this.panel20.Location = new System.Drawing.Point(6, 6);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(407, 73);
+            this.panel20.TabIndex = 3;
+            // 
+            // btnAddCustomer
+            // 
+            this.btnAddCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnAddCustomer.Location = new System.Drawing.Point(93, 3);
+            this.btnAddCustomer.Name = "btnAddCustomer";
+            this.btnAddCustomer.Size = new System.Drawing.Size(75, 67);
+            this.btnAddCustomer.TabIndex = 3;
+            this.btnAddCustomer.Text = "Thêm";
+            this.btnAddCustomer.UseVisualStyleBackColor = false;
+            // 
+            // btnEditCustomer
+            // 
+            this.btnEditCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnEditCustomer.Location = new System.Drawing.Point(281, 3);
+            this.btnEditCustomer.Name = "btnEditCustomer";
+            this.btnEditCustomer.Size = new System.Drawing.Size(75, 67);
+            this.btnEditCustomer.TabIndex = 2;
+            this.btnEditCustomer.Text = "Sửa";
+            this.btnEditCustomer.UseVisualStyleBackColor = false;
+            // 
+            // btnDeleteCustomer
+            // 
+            this.btnDeleteCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnDeleteCustomer.Location = new System.Drawing.Point(185, 3);
+            this.btnDeleteCustomer.Name = "btnDeleteCustomer";
+            this.btnDeleteCustomer.Size = new System.Drawing.Size(75, 67);
+            this.btnDeleteCustomer.TabIndex = 1;
+            this.btnDeleteCustomer.Text = "Xóa";
+            this.btnDeleteCustomer.UseVisualStyleBackColor = false;
+            // 
+            // btnShowCustomer
+            // 
+            this.btnShowCustomer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnShowCustomer.Location = new System.Drawing.Point(0, 3);
+            this.btnShowCustomer.Name = "btnShowCustomer";
+            this.btnShowCustomer.Size = new System.Drawing.Size(75, 67);
+            this.btnShowCustomer.TabIndex = 0;
+            this.btnShowCustomer.Text = "Xem";
+            this.btnShowCustomer.UseVisualStyleBackColor = false;
+            this.btnShowCustomer.Click += new System.EventHandler(this.btnShowCustomer_Click);
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(808, 584);
+            this.ClientSize = new System.Drawing.Size(796, 568);
             this.Controls.Add(this.tcAdmin);
             this.Name = "Admin";
             this.Text = "Admin";
@@ -1193,24 +1199,24 @@
             this.panel22.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvAccount)).EndInit();
             this.panel21.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.panel13.ResumeLayout(false);
-            this.panel15.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvCashier)).EndInit();
+            this.tpCasiher.ResumeLayout(false);
             this.panel17.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.panel20.ResumeLayout(false);
-            this.panel27.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvCustomer)).EndInit();
+            this.panel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCashier)).EndInit();
+            this.panel13.ResumeLayout(false);
+            this.tpCustomer.ResumeLayout(false);
             this.panel28.ResumeLayout(false);
             this.panel29.ResumeLayout(false);
             this.panel29.PerformLayout();
             this.panel30.ResumeLayout(false);
             this.panel30.PerformLayout();
+            this.panel27.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvCustomer)).EndInit();
+            this.panel20.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1283,7 +1289,7 @@
         private System.Windows.Forms.Button btnEditAccount;
         private System.Windows.Forms.Button btnDeleteAccount;
         private System.Windows.Forms.Button btnShowAccount;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tpCasiher;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.TextBox txbNameNv;
@@ -1298,7 +1304,7 @@
         private System.Windows.Forms.Button btnEditCashier;
         private System.Windows.Forms.Button btnDeleteCashier;
         private System.Windows.Forms.Button btnShowCashier;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tpCustomer;
         private System.Windows.Forms.Panel panel28;
         private System.Windows.Forms.Panel panel29;
         private System.Windows.Forms.TextBox txbNameCustomer;
